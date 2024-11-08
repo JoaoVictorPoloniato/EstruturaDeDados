@@ -1,0 +1,10 @@
+# Ignorar todos os diretórios venv, independentemente da pasta em que se encontram
+**/venv/
+**/.venv/
+
+# Ignorar arquivos de configuração de ambiente virtual
+venv/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
